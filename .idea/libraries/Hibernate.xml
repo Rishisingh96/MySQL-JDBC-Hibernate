@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Hibernate">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/Hibernate/angus-activation-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/Hibernate/antlr4-runtime-4.13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/Hibernate/byte-buddy-1.14.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/Hibernate/classmate-1.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/Hibernate/hibernate-commons-annotations-6.0.6.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/Hibernate/hibernate-core-6.4.4.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/Hibernate/istack-commons-runtime-4.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/Hibernate/jakarta.activation-api-2.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/Hibernate/jakarta.inject-api-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/Hibernate/jakarta.persistence-api-3.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/Hibernate/jakarta.transaction-api-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/Hibernate/jakarta.xml.bind-api-4.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/Hibernate/jandex-3.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/Hibernate/jaxb-core-4.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/Hibernate/jaxb-runtime-4.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/Hibernate/jboss-logging-3.5.0.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/Hibernate/txw2-4.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
