@@ -20,6 +20,10 @@
       <root url="jar://$PROJECT_DIR$/lib/Hibernate/txw2-4.0.2.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/hibernate-core-6.4.4.Final-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/hibernate-core-6.4.4.Final-sources.jar!/cfg" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/hibernate-core-6.4.4.Final-sources.jar!/hbm" />
+    </SOURCES>
   </library>
 </component>

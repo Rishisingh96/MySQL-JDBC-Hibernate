@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//DB.Hibernate/DB.Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>  <!--        import com.mysql.cj.Session;-->
+        <property name="connection.url">jdbc:mysql://localhost:3306/myhiber</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">Rishi@9838</property>
+       <!--Dialect means language of mysql-->
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+<!--        <property name="hbm2ddl.auto">update</property>-->
+        <property name="hbm2ddl.auto">create</property>
+        <property name="show_sql">true</property>
+        <property name="format_sql"></property>
+
+        <mapping class="DB.Hibernate.Student" />
+        <mapping class="DB.Hibernate.Address" />
+<!--        &lt;!&ndash; DB.JDBC connection pool settings &ndash;&gt;-->
+<!--        <property name="hibernate.connection.pool_size">5</property>-->
+
+<!--        &lt;!&ndash; SQL dialect &ndash;&gt;-->
+<!--        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>-->
+
+<!--        &lt;!&ndash; Enable DB.Hibernate's automatic session context management &ndash;&gt;-->
+<!--        <property name="hibernate.current_session_context_class">thread</property>-->
+
+<!--        &lt;!&ndash; Echo all executed SQL to stdout &ndash;&gt;-->
+<!--        <property name="hibernate.show_sql">true</property>-->
+
+<!--        &lt;!&ndash; Drop and create the database schema on startup &ndash;&gt;-->
+<!--        <property name="hibernate.hbm2ddl.auto">update</property>-->
+
+        <!-- Entity mapping -->
+<!--        <mapping class="DB.student"/>-->
+
+    </session-factory>
+</hibernate-configuration>
