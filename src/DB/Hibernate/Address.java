@@ -3,6 +3,7 @@ package DB.Hibernate;
 import jakarta.persistence.*;
 
 
+import java.util.Arrays;
 import java.util.Date;
 
 
@@ -102,5 +103,24 @@ public class Address {
 
     public void setAddressDate(Date date) {
 
+    }
+
+
+
+    @Override
+    public String toString() {
+        return "Address{" +
+                "addressId=" + addressId +
+                ", street='" + street + '\'' +
+                ", city='" + city + '\'' +
+                ", isOpen=" + isOpen +
+                ", x=" + x +
+                ", addedDate=" + addedDate +
+                ", image=" + Arrays.toString(image) +
+                '}';
+    }
+
+
+    public void addressId(int i) {
     }
 }

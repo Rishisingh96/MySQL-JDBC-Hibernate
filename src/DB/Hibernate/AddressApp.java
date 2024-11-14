@@ -1,14 +1,14 @@
 package DB.Hibernate;
-
+import jakarta.persistence.*;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
-import org.hibernate.cfg.Configuration;
+import org.hibernate.cfg.Configuration; // Import the DB.Hibernate Configuration class
 
 import java.io.FileInputStream;
 import java.util.Date;
 
-public class App {
+public class AddressApp {
     public static void main(String[] args) throws Exception {
         // Create DB.Hibernate configuration
         Configuration configuration = new Configuration();
@@ -24,9 +24,10 @@ public class App {
         Transaction transaction = session.beginTransaction();
 
         //entity
-        Student st = new Student();
-        st.setId(108);
-        st.setName("daku");
+        Address st = new Address();
+        st.setAddressId(105);
+        st.setStreet("Basti");
+        st.setOpen(true);
         st.setCity("Mumbai");
         System.out.println(st);
 //

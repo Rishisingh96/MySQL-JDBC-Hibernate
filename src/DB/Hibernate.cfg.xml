@@ -13,29 +13,38 @@
        <!--Dialect means language of mysql-->
         <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
 <!--        <property name="hbm2ddl.auto">update</property>-->
-        <property name="hbm2ddl.auto">create</property>
+       <property name="hbm2ddl.auto">create</property>
         <property name="show_sql">true</property>
-        <property name="format_sql"></property>
+        <property name="format_sql">true</property>
 
-        <mapping class="DB.Hibernate.Student" />
-        <mapping class="DB.Hibernate.Address" />
-<!--        &lt;!&ndash; DB.JDBC connection pool settings &ndash;&gt;-->
-<!--        <property name="hibernate.connection.pool_size">5</property>-->
-
-<!--        &lt;!&ndash; SQL dialect &ndash;&gt;-->
-<!--        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>-->
-
-<!--        &lt;!&ndash; Enable DB.Hibernate's automatic session context management &ndash;&gt;-->
-<!--        <property name="hibernate.current_session_context_class">thread</property>-->
-
-<!--        &lt;!&ndash; Echo all executed SQL to stdout &ndash;&gt;-->
-<!--        <property name="hibernate.show_sql">true</property>-->
-
-<!--        &lt;!&ndash; Drop and create the database schema on startup &ndash;&gt;-->
-<!--        <property name="hibernate.hbm2ddl.auto">update</property>-->
-
-        <!-- Entity mapping -->
-<!--        <mapping class="DB.student"/>-->
+<!--       <mapping class="DB.Hibernate.Student" />-->
+       <!-- <mapping class="DB.Hibernate.Address" />-->
+<!--        <mapping class="DB.Hibernate.Get_Load" />-->
+<!--        <mapping class="DB.Hibernate.Student1" />-->
+<!--        <mapping class="DB.Hibernate.Certificate" />-->
+<!--        <mapping class="DB.Hibernate.App" />-->
+        <mapping class="DB.map.Answer" />
+        <mapping class="DB.map.Question" />
+        <mapping class="DB.map.MapDemo" />
 
     </session-factory>
 </hibernate-configuration>
+
+
+<!--  &lt;!&ndash; DB.JDBC connection pool settings &ndash;&gt;-->
+        <!--        <property name="hibernate.connection.pool_size">5</property>-->
+
+        <!--        &lt;!&ndash; SQL dialect &ndash;&gt;-->
+        <!--        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>-->
+
+        <!--        &lt;!&ndash; Enable DB.Hibernates automatic session context management &ndash;&gt;-->
+        <!--        <property name="hibernate.current_session_context_class">thread</property>-->
+
+        <!--        &lt;!&ndash; Echo all executed SQL to stdout &ndash;&gt;-->
+        <!--        <property name="hibernate.show_sql">true</property>-->
+
+        <!--        &lt;!&ndash; Drop and create the database schema on startup &ndash;&gt;-->
+        <!--        <property name="hibernate.hbm2ddl.auto">update</property>-->
+
+        <!-- Entity mapping -->
+        <!--        <mapping class="DB.JDBC.student"/>-->

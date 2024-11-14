@@ -3,24 +3,36 @@ package DB.Hibernate;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+
+import java.security.cert.Certificate;
+
 //@Entity(name="student_details")
 //@Table(name="mystudents")
 @Entity
-public class Student {
+public class Student1 {
     @Id
     private int id;
     private String name;
     private String city;
-    private Certificate certificaet;
+    private Certificate certificate;
+    public Certificate getCertificate() {
+        return certificate;
+    }
 
-    public Student(int id, String name, String city) {
+    public void setCertificate(Certificate certificate) {
+        this.certificate = certificate;
+    }
+
+
+
+    public Student1(int id, String name, String city) {
         super();
         this.id = id;
         this.name = name;
         this.city = city;
     }
 
-    public Student(){  //default constructor
+    public Student1(){  //default constructor
         super();
 
     }
@@ -48,16 +60,11 @@ public class Student {
         this.city = city;
     }
 
-    public Certificate getCertificaet() {
-        return certificaet;
-    }
-
-    public void setCertificaet(Certificate certificaet) {
-        this.certificaet = certificaet;
-    }
-
     @Override
     public String toString() {
         return this.id+ " : "+this.name + ":" + this.city;
+    }
+
+    public void setCertificate(DB.Hibernate.Certificate certificate) {
     }
 }

@@ -1,4 +1,4 @@
-package DB;
+package DB.JDBC;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 

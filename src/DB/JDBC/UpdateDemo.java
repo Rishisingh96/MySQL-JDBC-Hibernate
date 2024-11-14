@@ -12,7 +12,6 @@ public class UpdateDemo {
         String email1 = "rishicoding@gmail.com";
 
         Class.forName("com.mysql.cj.jdbc.Driver");
-        Class.forName("com.mysql.cj.jdbc.Driver");
         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb","root","Rishi@9838");
 
         PreparedStatement preparedStatement = connection.prepareStatement("update register set city=? where email = ?");

@@ -9,7 +9,7 @@ public class DeleteDemo {
 
 
     public static void main(String[] args) throws Exception {
-        String email1 = "rishicoding@gmail.com";
+        String email1 = "rishi@gmail.com";
 
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb","root","Rishi@9838");
